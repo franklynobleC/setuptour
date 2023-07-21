@@ -76,6 +76,7 @@ function App () {
 
   return (
     <main className='main'>
+      <h1>Our Tour </h1>
       <section className='section'>
         {tours && <Tours handleRemoveTour={handleRemoveTour} tours={tours} />}
 
